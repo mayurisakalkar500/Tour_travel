@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<destinations>
+    <destination type="national">
+        <name>RAJASTHAN</name>
+        <description>Embark on a mesmerizing journey through the enchanting landscapes,regal heritage of Rajasthan, 
+			India's crown jewel.</description>
+        <image>rajimage.jpg</image>
+        <price>21,000/-</price>
+    </destination>
+    <destination type="national">
+        <name>MANALI</name>
+        <description>Welcome to Manali - A Paradise in the Himalayas!</description>
+        <image>manimage.jpg</image>
+        <price>30,000/-</price>
+    </destination>
+    <destination type="international">
+        <name>Paris</name>
+        <description>The City of Lights famous for the Eiffel Tower, Louvre Museum, and delicious cuisine.</description>
+        <image>paris.jpg</image>
+        <price>€600</price>
+    </destination>
+    <destination type="international">
+        <name>Tokyo</name>
+        <description>A bustling metropolis blending tradition and modernity, offering sushi, temples, 
+and neon lights.</description>
+        <image>tokyo.jpg</image>
+        <price>¥70000</price>
+    </destination>
+</destinations>

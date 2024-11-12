@@ -1,0 +1,55 @@
+button{
+    color: purple;
+    background-color: palegreen;
+    display:inline;
+    border-radius:10%;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline  ;
+}
+a{
+    text-decoration: none;
+}
+p{
+    letter-spacing:1.2;
+    line-height: 1.5;
+}
+
+button:hover{
+     background-color: red;
+     color: white;
+}
+
+b:hover{
+    text-decoration: underline ;
+    color: red;
+}
+
+form{
+    color:blue;
+}
+
+#one{
+    width:250px;
+    border-style:solid;
+    border-width:3px;
+    border-color:red;
+}
+
+span{
+    background-color:palegreen;
+    display: block;
+    padding:5px;
+}
+
+div{
+    height:30px;
+    width:30px;
+    background-color: green;
+    margin:10px;
+    border:2px solid black;
+    display:inline-block;
+}

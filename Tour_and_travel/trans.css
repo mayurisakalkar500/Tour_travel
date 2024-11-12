@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.symbol {
+    display: inline-block;
+    margin: 0 50px;
+    position: relative;
+    display: block;
+}
+
+.symbol img {
+    width: 100px;
+    height: 100px;
+}
+
+.connector {
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 60px); /* Adjust based on symbol width */
+    width: 100px;
+    height: 2px;
+    background-color: #000;
+}
+
+.connector::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    border: 2px dotted #000;
+}
+
+

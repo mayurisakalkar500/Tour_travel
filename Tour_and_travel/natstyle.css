@@ -1,0 +1,222 @@
+* {
+    border: 0;
+    padding: 0;
+  }
+
+  .navbar-nav{
+    align-content: left;
+  }
+
+  img{
+    max-width: 320px;
+    float: left;
+    /* border: 70px solid #fff; */
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+
+  .boximage {
+    max-width: 320px;
+    /* float: left; */
+    /* border: 70px solid #fff; */
+    border-radius: 10px;
+    margin-left: 10px;
+    position: absolute;
+    margin-left: 1071px;
+}
+
+  #boximage{
+    max-width: 320px;
+    float: right;
+    height: 50px;
+  }
+
+
+  .collection-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.collection{
+    position: relative;
+}
+
+.collection img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navItems11{
+display: flex;
+gap: 50vw;
+align-content: space-between;
+flex-wrap: nowrap;
+}
+
+.navItem1{
+  text-align: right;
+  color: blue;
+  font-size: 17px;
+}
+#main{
+    color: maroon;
+}
+
+.collection p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.collection:nth-child(3){
+    grid-column: span 2;
+    margin-bottom: 10px;
+}
+  .pid{
+    width:max-content;
+    position: left;
+  }
+
+  nav {
+    /* background-color: #111; */
+    background-color: #69cfe1;
+    color: white;
+    padding: 20px 100px;
+  }
+
+  .penguin-logo {
+    width: 200px;
+  }
+  .head-section {
+    background-color: rgba(255, 251, 240, 1);
+  }
+  .penguin-navbar {
+    background-color: 0;
+  }
+  h1 {
+    font-family: "Bebas Neue", cursive;
+  }
+  #text-style {
+    color: rgba(250, 190, 76, 1);
+    font-size: 80px;
+  }
+  .text-style2 {
+    font-size: 80px;
+  }
+  .penguin-catagory,
+  .text-style2 {
+    color: rgba(54, 57, 88, 1);
+  }
+  .penguin-card-img {
+    padding: 5%;
+    background-color: rgba(241, 241, 241, 1);
+    margin: 4% auto;
+  }
+  .penguin-info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  .penguin-card-border,
+  .penguin-card-img {
+    border-radius: 1em;
+    text-align: right;
+  }
+  .pricestyle {
+    color: rgb(33, 40, 165);
+    font-weight: bold;
+  }
+  .penguin-card-footer,
+  .penguin-card-border {
+    background-color: white;
+    border: 0;
+  }
+  .penguin-btn {
+    background-color: rgb(240, 224, 51);
+    color: black;
+  }
+  .footer-section {
+    background-color: hsla(72, 47%, 51%, 0.486);
+    padding: 3% 1% 1% 1%;
+  }
+  /* a{
+    min-height: 50vh;
+  } */
+
+  #quote{
+    justify-content: center;
+    color: red;
+    font-size: 30px;
+    margin-left: 50px;
+  }
+
+  .box {
+    margin: 150px auto;
+    width: 70%;
+}
+.box{
+  display:flex;
+}
+
+#logoim img{
+    width: 22px;
+    aspect-ratio: auto 22 / 22;
+    height: 22px;
+}
+
+.footer{ 
+    width:1500px; 
+    background:#4178cb; 
+    float:left; 
+    padding:20px 0px; 
+    margin-top:50px;}
+
+.footer-parts{ 
+    width:350px;
+    /* position: absolute;
+    margin-left: 1071px; */
+    float:left; 
+    padding:0px 25px;
+  }
+
+.footer-parts-h4{ 
+    color:#FFF; 
+    position:right;
+    padding:10px 0px; 
+    font-size:18px;
+    margin-right: 20%;
+  }
+.footer-parts-p{ 
+    color:#FFF; 
+    font-size:16px; 
+    padding:5px 0px; 
+    line-height:26px; 
+    text-align:justify;
+    
+  }
+.footer-parts ul{ list-style:none; padding:0px 0px 0px 100px;}
+.footer-parts ul li{ padding:0px; text-transform:none; margin-top:-10px; margin-bottom:20px;}
+.footer-parts ul li a{ color:#FFF; padding:6px 0px; text-decoration:none;}
+.footer-parts ul li a:hover{ color:#BBB;}
+.form{ width:240px; border-radius:2px; padding:8px 10px; color:#000; font-size:16px; margin:10px auto; border:none; }
+.subscribe{ padding:8px 15px; background:#ffd200; border-radius:2px; cursor:pointer; color:#000;
+font-size:16px; margin-left:-6px; border:none;}
+.subscribe:hover{background:#F0B604;}
+
+.social-links{ list-style:none; margin:10px 0px;}
+.social-links ul{ list-style:none; padding:0px 0px 0px 0px;}
+.social-links ul li{ padding:40px 10px 10px; text-transform:none; float:left; margin-top:-10px; margin-bottom:20px;}
+.social-links ul li a{ color:#FFF; padding:6px 15px 6px 0px; font-size:20px; text-decoration:none;}
+.social-links ul li a:hover{ color:#BBB;}
+
+.footer-bottom{ width:1500px; background:#3264b0; float:left; color:#FFF; text-align:center; font-size:12px; 
+font-weight:bold; padding:15px 0px !important;}

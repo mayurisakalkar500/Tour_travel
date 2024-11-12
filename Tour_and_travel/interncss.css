@@ -1,0 +1,154 @@
+/* interncss.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.navTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+}
+
+.navItems11 a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.navItems11 img {
+  margin-right: 10px;
+}
+
+#quote {
+  margin-left: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.textdiv {
+  flex: 1;
+}
+
+.box img {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.pricestyle {
+  color: #ff6347;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff4500;
+}
+
+.penguin-btn {
+  display: inline-block;
+  border: 2px solid #ff6347;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.penguin-btn:hover {
+  background-color: #ff6347;
+  color: white;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-parts {
+  margin-bottom: 20px;
+}
+
+.footer-parts-h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-parts-p {
+  font-size: 14px;
+}
+
+.footer-bottom {
+  background-color: #222;
+  color: white;
+  padding: 10px 0;
+}
+
+.white {
+  color: white;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: calc(100% - 22px);
+}
+
+.subscribe {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff6347;
+  color: white;
+  cursor: pointer;
+}
+
+.subscribe:hover {
+  background-color: #ff4500;
+}

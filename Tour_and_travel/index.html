@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="newpage.css">
+    <meta charset="UTF-8" />
+    <title>Website</title>
+</head>
+<body>
+    <section>
+    <div class="login">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="email" required>
+                <label id="emailid"><b>Email</b></label>
+            </div>
+            <div class="input-box">
+                <input type="password" required>
+                <label id="passid"><b>Password</b></label>
+            </div>
+            <div class="forgot">
+                <a href="//">Forget Password!!</a>
+            </div>
+            <form action="" name="myform">
+            <button type="submit" id="connect" ><b>Login</b></button>
+            <div class="new-register">
+                <b><p>Don't have an account?
+                    <a href="register.html"> 
+                    <br> Register!!</a></p></b>
+            </div>
+        </form>
+       </div>
+    </section>
+
+    <script>
+            // Perform login logic here
+     
+            document.addEventListener("submit",function()
+            {
+                event.preventDefault();
+                    alert("Successfully logged in");
+                
+                window.location.href="SDL.html";
+            });
+            // Redirect to the main page after successful login
+            //window.location.href = "SDL.html";
+        
+    </script>
+</body>
+</html>

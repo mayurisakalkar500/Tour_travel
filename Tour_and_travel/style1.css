@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'League Spartan', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #232c5b;
+    color: white;
+    padding: 20px 50px;
+  }
+  
+  h5{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .section-head{
+    background-color: white;
+  }
+
+  .navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+  
+  .limitedOffer {
+    font-size: 20px;
+    border-bottom: 2px solid rgb(194, 40, 156);
+    cursor: pointer;
+  }
+  
+  .navBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .category{
+    color: rgba(54,57,88,1);
+    font-size: 40px;
+    font-style: italic;
+  }
+
+  .menuItem {
+    margin-right: 80px;
+    cursor: pointer;
+    color: lightgray;
+    font-weight: 400;
+  }
+
+  .shop-footer,.shop-border{
+    background-color: white;
+    border: 0;
+    margin: 10 40 10 10;
+  }
+
+  .image{
+    border-radius: 1em;
+    padding: 2%;
+    background-color: rgba(241,241,241,1);
+    margin: 8% auto;
+    width: 300px;
+    height: 200px;
+  }
+
+  .price {
+    color: rgba(250, 190, 76, 1);
+    font-weight: bold;
+  }
+
+
+  .shop {
+    background-color: rgba(164, 188, 70, 1);
+    color: white;
+  }
+  .footer-section {
+    background-color: hsla(72, 47%, 51%, 0.486);
+    padding: 3% 1% 1% 1%;
+  }
+
+  #text-style {
+    color: rgba(250, 190, 76, 1);
+    font-size: 80px;
+  }
+  .text-style2 {
+    font-size: 80px;
+  }
+
+  .penguin-info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  
